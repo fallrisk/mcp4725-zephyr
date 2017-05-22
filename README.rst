@@ -11,12 +11,20 @@ converter. This example is with the Zephyr OS.
 Wiring
 ******
 
-Arduino Due ---- MCP4725
-TWCK0 10 PWMH ---- SCL
-TWD0 9 PWMH ---- SDA
-GND ---- A0
-GND ---- Vss
-5V  ---- Vdd
++---------------+-----------+
+|Arduino Due    | MCP4725   |
++---------------------------+
+|TWICK0 10 PWMH | SCL       |
++---------------------------+
+|TWD0 9         | SDA       |
++---------------------------+
+|GND            | A0        |
++---------------------------+
+|GND            | Vss       |
++---------------------------+
+|5 Volts        | Vdd       |
++---------------+-----------+
+
 
 Building and Running
 ********************
